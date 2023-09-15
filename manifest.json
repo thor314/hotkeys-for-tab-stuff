@@ -9,6 +9,27 @@
   "version": "1.0",
   "description": "Convenience hotkeys to move tabs around a window, between windows, and to open pages or bookmark folders, for modern micro-optimizing keyboard people",
   "homepage_url": "https://github.com/thor314/hotkeys-for-tab-stuff",
-  "permissions": ["activeTab"],
-  "icons": { "48": "icons/beasts-48.png" }
+  "permissions": ["activeTab", "tabs"],
+  "icons": { "48": "icons/beasts-48.png" },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "move-tab-left": {
+      "suggested_key": { "default": "Alt+," },
+      "description": "Move tab(s) left"
+    },
+    "move-tab-right": {
+      "suggested_key": { "default": "Alt+." },
+      "description": "Move tab(s) right"
+    },
+    "move-tab-to-new-window": {
+      "suggested_key": { "default": "Ctrl+Alt+n" },
+      "description": "Move tab(s) to new window"
+    }
+  }
 }
