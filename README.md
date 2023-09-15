@@ -24,6 +24,7 @@ Move selected tabs around, defaults to current tab:
 - Ctrl Alt n -- move tab(s) to new window
 - Ctrl Alt h -- extend select next tab left 
 - Ctrl Alt l -- extend select next tab right
+- ? -- bankrupt-bookmark all tabs in a folder called date and close window
 
 And 20 (yes you heard it, 20) slots to assign a hotkey to open a page, or even a folder of bookmarks. 
 
