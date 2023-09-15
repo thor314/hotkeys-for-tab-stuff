@@ -1,0 +1,14 @@
+{
+  "author": "Thor Kampefner",
+  "developer": {
+    "name": "Thor Kampefner",
+    "url": "https://github.com/thor314"
+  },
+  "manifest_version": 2,
+  "name": "Hotkeys For Tab Stuff",
+  "version": "1.0",
+  "description": "Convenience hotkeys to move tabs around a window, between windows, and to open pages or bookmark folders, for modern micro-optimizing keyboard people",
+  "homepage_url": "https://github.com/thor314/hotkeys-for-tab-stuff",
+  "permissions": ["activeTab"],
+  "icons": { "48": "icons/beasts-48.png" }
+}
